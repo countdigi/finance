@@ -22,6 +22,8 @@ Notes:
   - FXAIX - Fidelity S&P 500
 - Schwab
   - SWPPX - Schwab S&P 500
+- T. Rowe Price
+  - PREIX - Equity Index 500 Fund
 - Vanguard
   - VOO   - Vanguard S&P 500 ETF
   - VFIAX - Vanguard S&P 500 Admiral
@@ -37,6 +39,8 @@ Notes:
   - FSKAX - Fidelity Total Market
 - Schwab
   - SWTSX - Schwab Total Stock Market
+- T. Rowe Price
+  - POMIX - Total Equity Market Index Fund
 - Vanguard
   - VTI   - Vanguard Total Stock Market ETF
   - VTSAX - Vanguard Total Stock Market Admiral
@@ -51,6 +55,8 @@ Notes:
   - FTIHX - Fidelity Total International
 - Schwab
   - SWISX - Schwab International
+- T. Rowe Price
+  - PIEQX - International Equity Index Fund
 - Vanguard
   - VXUS  - Vanguard Total International ETF
   - VTIAX - Vanguard Total International Admiral
@@ -65,6 +71,8 @@ Notes:
   - SWAGX - Schwab US Aggregate Bond
 - Fidelity
   - FXNAX - Fidelity US Bond
+- T. Rowe Price
+  - PBDIX - US Bond Enhanced Index Fund
 - Vanguard
   - BND   - Vanguard Total Bond Market ETF
   - VBTLX - Vanguard Total Bond Market Admiral
