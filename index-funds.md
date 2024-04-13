@@ -1,12 +1,12 @@
 # Index Funds
 
 There are 6 main classes of passive index funds from a "Boglehead" perspective:
-- S&P500
+- S&P 500
 - Total US Stock Market
 - Total International Stock market
 - Total US Bond Market
 - Total International Bond Market
-- Total World Market (Total Stock Market + Total International Stock market)
+- Total World Market (Total US Stock Market + Total International Stock market)
 
 Notes:
 1. The S&P 500 and Total US Stock Market are *highly* correlated and may be used interchangeably in your portfolios as needed.
@@ -82,7 +82,7 @@ Notes:
   - VTABX - Vanguard Total International Bond Admiral
   - VTIFX - Vanguard Total International Bond Institutional
 
-### Total World Stock Market
+### Total World Stock Market (Total US Stock Market + Total International Stock Market)
 
 - Vanguard
   - VT - Total World Stock ETF
