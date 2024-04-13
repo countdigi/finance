@@ -92,10 +92,10 @@ Notes:
 ## Target Date Funds
 
 Target Date Retirement funds are a "fund-of-funds" generally consisting of:
-- Total US Stock Market (TUSM)
-- Total International Stock Market (TISM)
-- Total US Bond Market (TUBM)
-- Total International Bond Market (TIBM)
+- Total US Stock Market
+- Total International Stock Market
+- Total US Bond Market
+- Total International Bond Market
 
 TDFs change their stock-to-bond allocation as the fund approaches the target date of retirement.
 
