@@ -1,20 +1,28 @@
 # Index Funds
 
-These are the 6 main classes of passive index funds from a [Boglehead](https://www.bogleheads.org/wiki/Main_Page) perspective:
-- S&P 500
-- Total US Stock Market
-- Total International Stock market
+These are the 3 main classes of passive index funds from a [Boglehead](https://www.bogleheads.org/wiki/Main_Page)
+[Three-fund portfolio](https://www.bogleheads.org/wiki/Three-fund_portfolio) perspective:
+- US Stock Market
+  - S&P 500
+  - Total Stock Market
+- Total International Stock Market
 - Total US Bond Market
-- Total International Bond Market
-- Total World Market (Total US Stock Market + Total International Stock market)
 
-Notes:
-1. The S&P 500 and Total US Stock Market are *highly* correlated and may be used interchangeably in your portfolios as needed.
-2. The Vanguard ETFs VOO, VTI, VXUS, BND, BNDX, and VT are the underlying funds for the Admiral, Institutional, and Institutional Plus share classes.
+Note the S&P 500 and Total US Stock Market are *highly* correlated and may be used interchangeably in your portfolios as needed.
 
-## Funds per class
+In addition, TDFs typically contain:
+- International Bond Market
 
-### S&P 500
+Also some may find it convenient to hold a Total World Market which is a Market-cap weighted combination:
+- Total US Stock Market + Total International Stock Market
+
+Note for Vanguard funds the ETFs VOO, VTI, VXUS, BND, BNDX, and VT hold the same assets as the Admiral, Institutional, and Institutional Plus share classes.
+
+## 3-Fund Portfolio
+
+### US Stock Market
+
+#### S&P 500
 
 - Blackrock
   - IVV - iShares Core S&P 500 ETF
@@ -31,7 +39,7 @@ Notes:
   - VIIIX - Vanguard S&P 500 Institutional Plus
 
 
-### Total US Stock Market
+#### Total US Stock Market
 
 - Blackrock
   - IWV - iShares Russell 3000 ETF
@@ -79,7 +87,7 @@ Notes:
   - VBTIX - Vanguard Total Bond Market Institutional
   - VBMPX - Vanguard Total Bond Market Institutional Plus
 
-### Total International Bond Market
+## Total International Bond Market
 
 - Blackrock
   - IAGG - iShares Core International Aggregate Bond ETF
@@ -90,7 +98,7 @@ Notes:
   - VTABX - Vanguard Total International Bond Admiral
   - VTIFX - Vanguard Total International Bond Institutional
 
-### Total World Stock Market (Total US Stock Market + Total International Stock Market)
+## Total World Market (Total US Stock Market + Total International Stock Market)
 
 - Vanguard
   - VT - Total World Stock ETF
