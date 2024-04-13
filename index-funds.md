@@ -8,15 +8,15 @@ These are the 3 main classes of passive index funds from a [Boglehead](https://w
 - Total International Stock Market
 - Total US Bond Market
 
-Note the S&P 500 and Total US Stock Market are *highly* correlated and may be used interchangeably in your portfolios as needed.
+*Note the S&P 500 and Total US Stock Market are highly correlated and may be used interchangeably in your portfolios as needed.*
 
-In addition, TDFs typically contain:
+In addition, TDFs (Target Date Fund) typically contain:
 - International Bond Market
 
 Also some may find it convenient to hold a Total World Market which is a Market-cap weighted combination:
 - Total US Stock Market + Total International Stock Market
 
-Note for Vanguard funds the ETFs VOO, VTI, VXUS, BND, BNDX, and VT hold the same assets as the Admiral, Institutional, and Institutional Plus share classes.
+*Note for Vanguard funds the ETFs VOO, VTI, VXUS, BND, BNDX, and VT hold the same assets as the Admiral, Institutional, and Institutional Plus share classes.*
 
 ## 3-Fund Portfolio
 
