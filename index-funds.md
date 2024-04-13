@@ -101,11 +101,11 @@ Also some may find it convenient to hold a Total World Market which is a Market-
 ## Total World Market (Total US Stock Market + Total International Stock Market)
 
 - Blackrock
-  - URTH - iShares MSCI World ETF
+  - [URTH](https://www.ishares.com/us/products/239696/ishares-msci-world-etf) - iShares MSCI World ETF
 - Vanguard
-  - VT - Total World Stock ETF
-  - VTWAX - Total World Stock Admiral
-  - VTWIX - Total World Stock Institutional
+  - [VT](https://investor.vanguard.com/investment-products/etfs/profile/vt) - Total World Stock ETF
+  - [VTWAX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vtwax) - Total World Stock Admiral
+  - [VTWIX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vtwix) - Total World Stock Institutional
 
 ## Target Date Funds
 
@@ -124,7 +124,7 @@ Here are the allocations of several Vanguard TDF's to give you an idea of stocks
 - `+30y (90/10)` [2055 VFFVX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vffvx)
 - `+20y (85/15)` [2045 VTIVX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vtivx)
 - `+10y (70/30)` [2035 VTTHX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vtthx)
-- `+ 5y        ` Suggest moving to Lifestrategy fund (e.g. VSMXG `60/40` Moderate Growth Fund)
+- `+ 5y        ` Consider moving to Lifestrategy fund (e.g. VSMXG `60/40` Moderate Growth Fund)
 - `  0y (50/50)` [2025 VTTVX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vttvx)
 - `-10y (30/70)` [2015 VTINX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vtinx)
 
