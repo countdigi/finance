@@ -43,6 +43,8 @@ Total International Stock Market
   - IXUS -  iShares Core MSCI Total International ETF
 - Fidelity
   - FTIHX - Fidelity Total International
+- Schwab
+  - SWISX - Schwab International
 - Vanguard
   - VXUS  - Vanguard Total International ETF
   - VTIAX - Vanguard Total International Admiral
@@ -51,7 +53,9 @@ Total International Stock Market
 
 Total US Bond
 - Blackrock
-  - iShares Core Total USD Bond ETF
+  - AGG - iShares Core Total USD Bond ETF
+- Schwab
+  - SWAGX - Schwab US Aggregate Bond
 - Fidelity
   - FXNAX - Fidelity US Bond
 - Vanguard
