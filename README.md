@@ -10,7 +10,10 @@ and should not be used to make your own financial decisions without consulting a
 ## Useful Links
 
 - Highlighted Videos
-  - [Taxes Will Crush This $3M Traditional IRA!!! Or Maybe Not](https://www.youtube.com/watch?v=DfuUPLkHbYU)
+  - Sean Mullaney
+    - [Taxes Will Crush This $3M Traditional IRA!!! Or Maybe Not](https://www.youtube.com/watch?v=DfuUPLkHbYU)
+    - [The Tax Hikes are Coming!!! Or Maybe Not](https://www.youtube.com/watch?v=mCgRSCPuR-k)
+    - [Traditional Versus Roth 2023](https://www.youtube.com/watch?v=EHbo1DQFF-E)
 - Bogleheads
   - [Bogleheads Youtube Channel](https://www.youtube.com/@bogleheads3687)
   - [Bogleheads Wiki](https://www.bogleheads.org/wiki/Main_Page)
