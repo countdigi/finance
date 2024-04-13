@@ -10,7 +10,7 @@ These are the 3 main classes of passive index funds from a [Boglehead](https://w
 
 *Note the S&P 500 and Total US Stock Market are highly correlated and may be used interchangeably in your portfolios as needed.*
 
-In addition, TDFs (Target Date Fund) typically contain:
+In addition, TDFs (Target Date Fund) typically add:
 - International Bond Market
 
 Also some may find it convenient to hold a Total World Market which is a Market-cap weighted combination:
@@ -116,12 +116,12 @@ Target Date Retirement funds are a "fund-of-funds" generally consisting of:
 TDFs change their stock-to-bond allocation as the fund approaches the target date of retirement.
 
 Here are the allocations of several Vanguard TDF's to give you an idea of allocation (as of 2024) (stocks/bonds):
-- [2065 VLXVX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vlxvx) (90/10)
-- [2055 VFFVX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vffvx) (90/10)
-- [2045 VTIVX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vtivx) (85/15)
-- [2035 VTTHX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vtthx) (70/30)
-- [2025 VTTVX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vttvx) (50/50)
-- [2015 VTINX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vtinx) (30/70)
+- [2065 VLXVX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vlxvx) (90/10) +40y
+- [2055 VFFVX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vffvx) (90/10) +30y
+- [2045 VTIVX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vtivx) (85/15) +20y
+- [2035 VTTHX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vtthx) (70/30) +10y
+- [2025 VTTVX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vttvx) (50/50)   0y
+- [2015 VTINX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vtinx) (30/70) -10y
 
 ## Life Strategy Funds
 
