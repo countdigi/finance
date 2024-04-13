@@ -123,7 +123,7 @@ Here are the allocations of several Vanguard TDF's to give you an idea of stocks
 - `+30y (90/10)` [2055 VFFVX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vffvx)
 - `+20y (85/15)` [2045 VTIVX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vtivx)
 - `+10y (70/30)` [2035 VTTHX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vtthx)
-- `+ 5y        ` This might be a good point to move to a fixed Lifestrategy fund (e.g. VSMXG `60/50` Moderate Growth Fund
+- `+ 5y        ` Suggest moving to Lifestrategy fund (e.g. VSMXG `60/40` Moderate Growth Fund)
 - `  0y (50/50)` [2025 VTTVX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vttvx)
 - `-10y (30/70)` [2015 VTINX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vtinx)
 
