@@ -17,6 +17,14 @@ and should not be used to make your own financial decisions without consulting a
     - [Prioritizing investments](https://www.bogleheads.org/wiki/Prioritizing_investments)
     - [Three-fund portfolio](https://www.bogleheads.org/wiki/Three-fund_portfolio)
 
+## Concepts
+
+Basis Point
+- Used to represent fractional percentages (1/100 of 1 percent)
+- Abbreviated at `bp` (plural: `bps`) and often pronounced "bip" or "bips"
+- 1 basis point equals `0.0001`. 100 basis points (`0.0100`) is equal to 1 percent
+- For every `10,000.00 USD` a 1 basis point expense equals `1.00 USD`
+
 ## FRS - Florida Retirement System Funds
 
 ### Total US Stock Market
