@@ -3,7 +3,7 @@
 Notes and scripts for getting a handle on investing and taxes. All information offered is strictly for educational purposes
 and should not be used to make your own financial decisions without consulting a professional first.
 
-- [Index Funds][index-funds.md]
+- [Index Funds](/index-funds.md)
 
 ## FRS - Florida Retirement System Funds
 
