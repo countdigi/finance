@@ -110,13 +110,14 @@ Also some may find it convenient to hold a Total World Market which is a Market-
 ## Target Date Funds
 
 Target Date Retirement funds are a "fund-of-funds" generally consisting of:
-- Total US Stock Market
-- Total International Stock Market
-- Total US Bond Market
-- Total International Bond Market
+- Total US Stock Market (e.g. `VTI`)
+- Total International Stock Market (e.g. `VXUS`)
+- Total US Bond Market (e.g. `BND`)
+- Total International Bond Market (e.g. `BNDX`)
 
 TDFs change their stock-to-bond ratio to a more conservative allocation as the fund approaches the target date of retirement.
-Some may find the funds become too conservative once they are close to their final retirement target.
+Some may find the funds become too conservative once they reach and move past their final retirement target as anything
+below a `50/50` stock/bond allocation risks not generating adequate return for a long-term retirement.
 
 Here are the allocations of several Vanguard TDF's to give you an idea of stocks to bonds allocation (as of 2024):
 - `+40y (90/10)` [2065 VLXVX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vlxvx)
@@ -129,7 +130,7 @@ Here are the allocations of several Vanguard TDF's to give you an idea of stocks
 
 ## Life Strategy Funds
 
-The Vanguard Life-Strategy funds have the same composition as a TDF but hold the allocation at the desired level (stocks/bonds):
+The Vanguard Life-Strategy funds have the same composition as a TDF but maintain a fixed stock/bond ratio:
 - `80/20` [VASGX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vasgx) LifeStrategy Growth Fund
 - `60/40` [VSMGX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vsmgx) LifeStrategy Moderate Growth Fund
 - `40/60` [VSCGX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vscgx) LifeStrategy Conservative Growth Fund
