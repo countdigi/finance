@@ -81,6 +81,18 @@ status:
       0:                          0.00
       63000:                      0.15
       551350:                     0.20
+    ira:
+      roth_phaseout:
+        start:               146000
+        max:                 161000
+      trad_phaseout:
+        covered:
+          start:              77000
+          max:                87000
+    savers_credit:
+      57375:                      0.10   #  200 max
+      37500:                      0.20   #  400 max
+      34500:                      0.50   # 1000 max
 
 retirement:
     415c:

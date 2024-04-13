@@ -28,16 +28,14 @@ Basis Point
 - 1 basis point equals `0.0001`. 100 basis points (`0.0100`) is equal to 1 percent
 - For every `10,000.00 USD` a 1 basis point expense equals `1.00 USD`
 
-## FRS - Florida Retirement System Funds
-
-### Total US Stock Market
-
-FRS US Stock Market Index Fund (120) / (IWV - iShares Russell 3000 ETF)
-
-### Total International Stock Market
-
-FRS Foreign Stock Index Fund (200) / (IXUS - iShares Core MSCI Total International ETF)
-
-### Total Bond Market
-
-FRS US Bond Enhanced Index Fund (80) / (AGG - iShares Core Total USD Bond Market ETF)
+Back-of-Envelope
+- Change amounts to exponental notation, e.g.
+  - `1,000,000 = 1 x 10^6`
+  - `  100,000 = 1 x 10^5`
+  - `   10,000 = 1 x 10^4`
+- Use the following negative exponents for percentages:
+  - `0.01% = 1 x 10^-4` (1 bp)
+  - `1.00% = 1 x 10^-2` (100 bps)
+- Multiplying is simply adding the exponents, e.g.:
+  - `  100,000 x 0.01%` = `10^5 * 10^-4` = `10^1` = `10`
+  - `3,000,000 x 0.15%` = `(3 * 10^6) * (15 * 10^-4)` = `(3 * 15) * 10^2` = `45 * 100` = `4500`
