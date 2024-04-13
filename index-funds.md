@@ -25,51 +25,50 @@ Also some may find it convenient to hold a Total World Market which is a Market-
 #### S&P 500
 
 - Blackrock
-  - IVV - iShares Core S&P 500 ETF
+  - [IVV](https://www.ishares.com/us/products/239726/ishares-core-sp-500-etf) - iShares Core S&P 500 ETF
 - Fidelity
-  - FXAIX - Fidelity S&P 500
+  - [FXAIX](https://fundresearch.fidelity.com/mutual-funds/summary/315911750) - Fidelity S&P 500
 - Schwab
-  - SWPPX - Schwab S&P 500
+  - [SWPPX](https://www.schwabassetmanagement.com/products/swppx) - Schwab S&P 500
 - T. Rowe Price
-  - PREIX - Equity Index 500 Fund
+  - [PREIX](https://www.troweprice.com/financial-intermediary/us/en/investments/mutual-funds/us-products/equity-index-500-fund.html) - Equity Index 500 Fund
 - Vanguard
   - [VOO](https://investor.vanguard.com/investment-products/etfs/profile/voo) - Vanguard S&P 500 ETF
-  - VFIAX - Vanguard S&P 500 Admiral
-  - VINIX - Vanguard S&P 500 Institutional
-  - VIIIX - Vanguard S&P 500 Institutional Plus
-
+  - [VFIAX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vfiax) - Vanguard S&P 500 Admiral
+  - [VINIX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vinix) - Vanguard S&P 500 Institutional
+  - [VIIIX](https://investor.vanguard.com/investment-products/mutual-funds/profile/viiix) - Vanguard S&P 500 Institutional Plus
 
 #### Total US Stock Market
 
 - Blackrock
-  - IWV - iShares Russell 3000 ETF
+  - [IWV](https://www.ishares.com/us/products/239714/ishares-russell-3000-etf) - iShares Russell 3000 ETF
 - Fidelity
-  - FSKAX - Fidelity Total Market
+  - [FSKAX](https://fundresearch.fidelity.com/mutual-funds/summary/315911693) - Fidelity Total Market
 - Schwab
-  - SWTSX - Schwab Total Stock Market
+  - [SWTSX](https://www.schwabassetmanagement.com/products/swtsx) - Schwab Total Stock Market
 - T. Rowe Price
-  - POMIX - Total Equity Market Index Fund
+  - [POMIX](https://www.troweprice.com/financial-intermediary/us/en/investments/mutual-funds/us-products/total-equity-market-index-fund.html) - Total Equity Market Index Fund
 - Vanguard
   - [VTI](https://investor.vanguard.com/investment-products/etfs/profile/vti) - Vanguard Total Stock Market ETF
-  - VTSAX - Vanguard Total Stock Market Admiral
-  - VITNX - Vanguard Total Stock Market Institutional
-  - VITPX - Vanguard Total Stock Market Institutional Plus
+  - [VTSAX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vtsax) - Vanguard Total Stock Market Admiral
+  - [VITNX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vitnx) - Vanguard Total Stock Market Institutional
+  - [VITPX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vitpx) - Vanguard Total Stock Market Institutional Plus
 
 ### Total International Stock Market
 
 - Blackrock
-  - IXUS -  iShares Core MSCI Total International ETF
+  - [IXUS](https://www.ishares.com/us/products/244048/ishares-core-msci-total-international-stock-etf) - iShares Core MSCI Total International ETF
 - Fidelity
-  - FTIHX - Fidelity Total International
+  - [FTIHX](https://fundresearch.fidelity.com/mutual-funds/summary/31635V638) - Fidelity Total International
 - Schwab
-  - SWISX - Schwab International
+  - [SWISX](https://www.schwabassetmanagement.com/products/swisx) - Schwab International
 - T. Rowe Price
-  - PIEQX - International Equity Index Fund
+  - [PIEQX](https://www.troweprice.com/financial-intermediary/us/en/investments/mutual-funds/us-products/international-equity-index-fund.html) - International Equity Index Fund
 - Vanguard
   - [VXUS](https://investor.vanguard.com/investment-products/etfs/profile/vxus) - Vanguard Total International ETF
-  - VTIAX - Vanguard Total International Admiral
-  - VTSNX - Vanguard Total International Institutional
-  - VTSPX - Vanguard Total International Institutional Plus
+  - [VTIAX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vtiax) - Vanguard Total International Admiral
+  - [VTSNX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vtsnx) - Vanguard Total International Institutional
+  - [VTSPX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vtspx) - Vanguard Total International Institutional Plus
 
 ### Total US Bond Market
 
