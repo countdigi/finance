@@ -116,7 +116,7 @@ Target Date Retirement funds are a "fund-of-funds" generally consisting of:
 - Total International Bond Market (e.g. `BNDX`)
 
 TDFs change their stock-to-bond ratio to a more conservative allocation as the fund approaches the target date of retirement.
-Some may find the funds become too conservative once they reach and move past their final retirement target as anything
+Some may find the funds become too conservative once they move past their final retirement target as anything
 below a `50/50` stock/bond allocation risks not generating adequate return for a long-term retirement.
 
 Here are the allocations of several Vanguard TDF's to give you an idea of stocks to bonds allocation (as of 2024):
