@@ -33,7 +33,7 @@ Also some may find it convenient to hold a Total World Market which is a Market-
 - T. Rowe Price
   - PREIX - Equity Index 500 Fund
 - Vanguard
-  - VOO   - Vanguard S&P 500 ETF
+  - [VOO](https://investor.vanguard.com/investment-products/etfs/profile/voo) - Vanguard S&P 500 ETF
   - VFIAX - Vanguard S&P 500 Admiral
   - VINIX - Vanguard S&P 500 Institutional
   - VIIIX - Vanguard S&P 500 Institutional Plus
@@ -50,7 +50,7 @@ Also some may find it convenient to hold a Total World Market which is a Market-
 - T. Rowe Price
   - POMIX - Total Equity Market Index Fund
 - Vanguard
-  - VTI   - Vanguard Total Stock Market ETF
+  - [VTI](https://investor.vanguard.com/investment-products/etfs/profile/vti) - Vanguard Total Stock Market ETF
   - VTSAX - Vanguard Total Stock Market Admiral
   - VITNX - Vanguard Total Stock Market Institutional
   - VITPX - Vanguard Total Stock Market Institutional Plus
@@ -66,7 +66,7 @@ Also some may find it convenient to hold a Total World Market which is a Market-
 - T. Rowe Price
   - PIEQX - International Equity Index Fund
 - Vanguard
-  - VXUS  - Vanguard Total International ETF
+  - [VXUS](https://investor.vanguard.com/investment-products/etfs/profile/vxus) - Vanguard Total International ETF
   - VTIAX - Vanguard Total International Admiral
   - VTSNX - Vanguard Total International Institutional
   - VTSPX - Vanguard Total International Institutional Plus
@@ -82,7 +82,7 @@ Also some may find it convenient to hold a Total World Market which is a Market-
 - T. Rowe Price
   - PBDIX - US Bond Enhanced Index Fund
 - Vanguard
-  - BND   - Vanguard Total Bond Market ETF
+  - [BND](https://investor.vanguard.com/investment-products/etfs/profile/bnd) - Vanguard Total Bond Market ETF
   - VBTLX - Vanguard Total Bond Market Admiral
   - VBTIX - Vanguard Total Bond Market Institutional
   - VBMPX - Vanguard Total Bond Market Institutional Plus
@@ -94,7 +94,7 @@ Also some may find it convenient to hold a Total World Market which is a Market-
 - Fidelity
   - FBIIX - International Bond Index Fund
 - Vanguard
-  - BNDX  - Vanguard Total International Bond ETF
+  - [BNDX](https://investor.vanguard.com/investment-products/etfs/profile/bndx) - Vanguard Total International Bond ETF
   - VTABX - Vanguard Total International Bond Admiral
   - VTIFX - Vanguard Total International Bond Institutional
 
