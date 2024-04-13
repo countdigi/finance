@@ -4,7 +4,8 @@ Notes and scripts for getting a handle on investing and taxes. All information o
 and should not be used to make your own financial decisions without consulting a professional first.
 
 - [Index Funds](/index-funds.md)
-- [2024 IRS Brackets/Limits](/irs/2024.yaml)
+- IRS Tax Code
+  - [2024](/irs/2024.yaml)
 
 ## Useful Links
 
