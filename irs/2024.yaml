@@ -57,7 +57,7 @@ status:
       roth_phaseout:
         start:               146000
         max:                 161000
-      trad:
+      trad_phaseout:
         covered:
           start:              77000
           max:                87000
