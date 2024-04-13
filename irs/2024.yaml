@@ -9,7 +9,7 @@ status:
 
   mfj:
     std_ded:                  29200
-    std_ded_ab:                1550
+    std_ded_65_or_blind:       1550
     tax:
       0:                          0.10
       23200:                      0.12   #  +1000
@@ -40,7 +40,7 @@ status:
 
   sng:
     std_ded:                  14600
-    std_ded_ab:                1950
+    std_ded_65_or_blind:       1950
     tax:
       0:                          0.10
       11600:                      0.12   #   +600
@@ -68,7 +68,7 @@ status:
 
   hoh:
     std_ded:                  21900
-    std_ded_ab:                1550
+    std_ded_65_or_blind:       1550
     tax:
       0:                          0.10
       16550:                      0.12
