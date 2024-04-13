@@ -83,20 +83,20 @@ Also some may find it convenient to hold a Total World Market which is a Market-
   - PBDIX - US Bond Enhanced Index Fund
 - Vanguard
   - [BND](https://investor.vanguard.com/investment-products/etfs/profile/bnd) - Vanguard Total Bond Market ETF
-  - VBTLX - Vanguard Total Bond Market Admiral
-  - VBTIX - Vanguard Total Bond Market Institutional
-  - VBMPX - Vanguard Total Bond Market Institutional Plus
+  - [VBTLX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vbtlx) - Vanguard Total Bond Market Admiral
+  - [VBTIX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vbtix) - Vanguard Total Bond Market Institutional
+  - [VBMPX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vbmpx) - Vanguard Total Bond Market Institutional Plus
 
 ## Total International Bond Market
 
 - Blackrock
-  - IAGG - iShares Core International Aggregate Bond ETF
+  - [IAGG](https://www.ishares.com/us/products/279626/ishares-international-aggregate-bond-etf) - iShares Core International Aggregate Bond ETF
 - Fidelity
-  - FBIIX - International Bond Index Fund
+  - [FBIIX](https://fundresearch.fidelity.com/mutual-funds/summary/31635T732) - International Bond Index Fund
 - Vanguard
   - [BNDX](https://investor.vanguard.com/investment-products/etfs/profile/bndx) - Vanguard Total International Bond ETF
-  - VTABX - Vanguard Total International Bond Admiral
-  - VTIFX - Vanguard Total International Bond Institutional
+  - [VTABX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vtabx) - Vanguard Total International Bond Admiral
+  - [VTIFX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vtifx) - Vanguard Total International Bond Institutional
 
 ## Total World Market (Total US Stock Market + Total International Stock Market)
 
