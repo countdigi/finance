@@ -74,13 +74,13 @@ Also some may find it convenient to hold a Total World Market which is a Market-
 ### Total US Bond Market
 
 - Blackrock
-  - AGG - iShares Core Total USD Bond ETF
+  - [AGG](https://www.ishares.com/us/products/239458/ishares-core-total-us-bond-market-etf) - iShares Core Total USD Bond ETF
 - Schwab
-  - SWAGX - Schwab US Aggregate Bond
+  - [SWAGX](https://www.schwabassetmanagement.com/products/swagx) - Schwab US Aggregate Bond
 - Fidelity
-  - FXNAX - Fidelity US Bond
+  - [FXNAX](https://fundresearch.fidelity.com/mutual-funds/summary/316146356) - Fidelity US Bond
 - T. Rowe Price
-  - PBDIX - US Bond Enhanced Index Fund
+  - [PBDIX](https://www.troweprice.com/financial-intermediary/us/en/investments/mutual-funds/us-products/qm-us-bond-index-fund.html) - US Bond Enhanced Index Fund
 - Vanguard
   - [BND](https://investor.vanguard.com/investment-products/etfs/profile/bnd) - Vanguard Total Bond Market ETF
   - [VBTLX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vbtlx) - Vanguard Total Bond Market Admiral
