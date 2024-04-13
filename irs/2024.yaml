@@ -62,9 +62,9 @@ status:
           start:              77000
           max:                87000
     savers_credit:
-      38250:                      0.10  #  200 max
-      25000:                      0.20  #  400 max
-      23000:                      0.50  # 1000 max
+      38250:                      0.10   #  200 max
+      25000:                      0.20   #  400 max
+      23000:                      0.50   # 1000 max
 
   hoh:
     std_ded:                  21900
@@ -84,31 +84,31 @@ status:
 
 retirement:
     415c:
-      limit:                  69000     #  +3000 (04.5%)
+      limit:                  69000      #  +3000 (04.5%)
     403b:
-      regular:                23000     #   +500 (02.2%)
+      regular:                23000      #   +500 (02.2%)
       catchup:                 7500
     457b:
-      regular:                23000     #   +500 (02.2%)
+      regular:                23000      #   +500 (02.2%)
       catchup:                 7500
     ira:
-      regular:                 7000     #   +500
-      catchup:                 1000     #   +500
+      regular:                 7000      #   +500
+      catchup:                 1000      #   +500
     hsa:
       fam:
-        limit:                 8300     #   +550 (07%)
+        limit:                 8300      #   +550 (07%)
         catchup:               1000
         min-ded:               3200
         oop:                  16100
       sng:
-        limit:                 4150     #   +500 (12%)
+        limit:                 4150      #   +500 (12%)
         catchup:               1000
         min-ded:               1600
         oop:                   8050
 
-gift_exclusion:             18000     #  +1000 (05.8%)
+gift_exclusion:               18000      #  +1000 (05.8%)
 
 medicare:
-  part_b:                  174.70     # 2096.40/y
+  part_b:                       174.70   #   2096.40/y
 
 # vim: colorcolumn=36,42
