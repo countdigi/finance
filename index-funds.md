@@ -117,7 +117,7 @@ Target Date Retirement funds are a "fund-of-funds" generally consisting of:
 
 TDFs change their stock-to-bond allocation as the fund approaches the target date of retirement.
 
-Here are the allocations of several Vanguard TDF's to give you an idea of allocation (as of 2024) (stocks/bonds):
+Here are the allocations of several Vanguard TDF's to give you an idea of stocks to bonds allocation (as of 2024):
 - `+40y (90/10)` [2065 VLXVX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vlxvx)
 - `+30y (90/10)` [2055 VFFVX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vffvx)
 - `+20y (85/15)` [2045 VTIVX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vtivx)
