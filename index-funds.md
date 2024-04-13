@@ -16,7 +16,7 @@ In addition, TDFs (Target Date Fund) typically add:
 Also some may find it convenient to hold a Total World Market which is a Market-cap weighted combination:
 - Total US Stock Market + Total International Stock Market
 
-*Note for Vanguard funds the ETFs VOO, VTI, VXUS, BND, BNDX, and VT hold the same assets as the Admiral, Institutional, and Institutional Plus share classes.*
+*Note the Vanguard ETFs VOO, VTI, VXUS, BND, BNDX, and VT contain the same underlying assets as the Admiral, Institutional, and Institutional Plus share classes.*
 
 ## 3-Fund Portfolio
 
