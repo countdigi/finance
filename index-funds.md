@@ -115,13 +115,15 @@ Target Date Retirement funds are a "fund-of-funds" generally consisting of:
 - Total US Bond Market
 - Total International Bond Market
 
-TDFs change their stock-to-bond allocation as the fund approaches the target date of retirement.
+TDFs change their stock-to-bond ratio to a more conservative allocation as the fund approaches the target date of retirement.
+Some may find the funds become too conservative once they are close to their final retirement target.
 
 Here are the allocations of several Vanguard TDF's to give you an idea of stocks to bonds allocation (as of 2024):
 - `+40y (90/10)` [2065 VLXVX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vlxvx)
 - `+30y (90/10)` [2055 VFFVX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vffvx)
 - `+20y (85/15)` [2045 VTIVX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vtivx)
 - `+10y (70/30)` [2035 VTTHX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vtthx)
+- `+ 5y        ` This might be a good point to move to a fixed Lifestrategy fund (e.g. VSMXG `60/50` Moderate Growth Fund
 - `  0y (50/50)` [2025 VTTVX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vttvx)
 - `-10y (30/70)` [2015 VTINX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vtinx)
 
