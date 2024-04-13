@@ -8,11 +8,11 @@ There are 6 main classes of passive index funds from a "Boglehead" perspective:
 - Total International Bond Market
 - Total World Market (Total Stock Market + Total International Stock market)
 
-Note: The S&P 500 and Total US Stock Market are *highly* correlated and may be used interchangeably in your portfolios as needed.
+Notes:
+1. The S&P 500 and Total US Stock Market are *highly* correlated and may be used interchangeably in your portfolios as needed.
+2. The Vanguard ETFs VOO, VTI, VXUS, BND, BNDX, and VT are the underlying funds for the Admiral, Institutional, and Institutional Plus share classes.
 
 ## Funds per class
-
-NOTE: The Vanguard ETFs VOO, VTI, VXUS, BND, BNDX, and VT are the underlying funds for the Admiral, Institutional, and Institutional Plus share classes.
 
 ### S&P 500
 
