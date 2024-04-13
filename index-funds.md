@@ -130,7 +130,7 @@ Here are the allocations of several Vanguard TDF's to give you an idea of stocks
 ## Life Strategy Funds
 
 The Vanguard Life-Strategy funds have the same composition as a TDF but hold the allocation at the desired level (stocks/bonds):
-- VASGX - 80/20 - LifeStrategy Growth Fund
-- VSMGX - 60/40 - LifeStrategy Moderate Growth Fund
-- VSCGX - 40/60 - LifeStrategy Conservative Growth Fund
-- VASIX - 20/80 - LifeStrategy Income Fund
+- `80/20` [VASGX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vasgx) LifeStrategy Growth Fund
+- `60/40` [VSMGX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vsmgx) LifeStrategy Moderate Growth Fund
+- `40/60` [VSCGX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vscgx) LifeStrategy Conservative Growth Fund
+- `20/80` [VASIX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vscgx) LifeStrategy Income Fund
