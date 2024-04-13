@@ -1,6 +1,6 @@
 # Index Funds
 
-There are 6 main classes of passive index funds from a "Boglehead" perspective:
+These are the 6 main classes of passive index funds from a [Boglehead](https://www.bogleheads.org/wiki/Main_Page) perspective:
 - S&P 500
 - Total US Stock Market
 - Total International Stock market

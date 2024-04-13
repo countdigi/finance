@@ -12,6 +12,7 @@ and should not be used to make your own financial decisions without consulting a
 - Bogleheads
   - [Bogleheads Youtube Channel](https://www.youtube.com/@bogleheads3687)
   - [Bogleheads Wiki](https://www.bogleheads.org/wiki/Main_Page)
+    - [Bogleheads Prioritizing investments](https://www.bogleheads.org/wiki/Prioritizing_investments)
 
 ## FRS - Florida Retirement System Funds
 
