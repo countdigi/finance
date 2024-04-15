@@ -3,12 +3,14 @@
 Notes and scripts for getting a handle on investing and taxes. All information offered is strictly for educational purposes
 and should not be used to make your own financial decisions without consulting a professional first.
 
-- [Index Funds](/index-funds.md)
+- [Index Funds](/docs/index-funds.md)
 - IRS Tax Code
   - [2024](/irs/2024.yaml)
 
 ## Useful Links
 
+- Tax Caculator
+  - <https://www.irscalculators.com/tax-calculator>
 - Highlighted Videos
   - Sean Mullaney
     - [Taxes Will Crush This $3M Traditional IRA!!! Or Maybe Not](https://www.youtube.com/watch?v=DfuUPLkHbYU)
