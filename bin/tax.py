@@ -2,9 +2,9 @@
 
 import argparse
 import datetime
+import json
 import sys
 import yaml
-import json
 
 from os.path import abspath, basename, dirname, join
 
@@ -17,20 +17,35 @@ def main(argv):
     parser = argparse.ArgumentParser(basename(__file__))
 
     parser.add_argument("--inc-w2", help="w2 income", default="0")
-    parser.add_argument("--inc-lt", help="long-term capital gains, qualified divs income", default="0")
-    parser.add_argument("--inc-un", help="short-term gains, rental income, etc", default="0")
-    parser.add_argument("--ret-fed", help="fed tax deductible retirement contributions", default="0")
-    parser.add_argument("--ret-fica", help="fica deductible retirement contributions (hsa)", default="0")
-    parser.add_argument("--ret-tax", help="taxable retirement contributions (roth, brokerage)", default="0")
-    parser.add_argument("--ded-fed", help="federal deductions", default="0")
-    parser.add_argument("--ded-fica", help="fica deductions (health insurance premiums)", default="0")
-    parser.add_argument("--separator", help="separator for multiple amounts", default=",")
+    parser.add_argument("--inc-lt", default="0", help="long-term capital gains")
+    parser.add_argument(
+        "--inc-un", default="0", help="short-term gains, rental income, etc"
+    )
+    parser.add_argument(
+        "--ret-fed", default="0", help="fed tax deductible retirement contributions"
+    )
+    parser.add_argument(
+        "--ret-fica", default="0", help="fica deductible retirement contributions (hsa)"
+    )
+    parser.add_argument(
+        "--ret-tax",
+        default="0",
+        help="taxable retirement contributions (roth, brokerage)",
+    )
+    parser.add_argument("--ded-fed", default="0", help="federal deductions")
+    parser.add_argument(
+        "--ded-fica", default="0", help="fica deductions (health insurance premiums)"
+    )
+    parser.add_argument(
+        "--separator", default=",", help="separator for option multiple inputs"
+    )
     parser.add_argument("--status", default="mfj", choices=["mfj", "sng", "hoh"])
     parser.add_argument("--age", default=18)
     parser.add_argument("--age-spouse", default=18)
-    parser.add_argument("irs_yaml")
+    parser.add_argument("irs_yaml", nargs="?", default="irs/2024.yaml")
 
     args = parser.parse_args(argv[1:])
+
 
     status = args.status
 
@@ -48,22 +63,32 @@ def main(argv):
     tt_lt = db["status"][status]["cap_gains"]
     tt_niit = db["status"][status]["niit"]
 
+    print("irs_yaml: ", args.irs_yaml, file=sys.stderr)
+    print("status:   ", status, file=sys.stderr)
+    print("std_ded:  ", std, file=sys.stderr)
+    print("inc_w2:   ", inc_w2, file=sys.stderr)
+    print("inc_un:   ", inc_un, file=sys.stderr)
+    print("inc_lt:   ", inc_lt, file=sys.stderr)
+    print(file=sys.stderr)
+
     tax_ss, tax_ss_tab = compute_tax(db["fica"]["oasdi"], inc_w2)
     tax_med, tax_med_tab = compute_tax(db["fica"]["medicare"], inc_w2)
 
     tax_or, tax_or_tab = compute_tax(tt_or, inc_w2 + inc_un - std)
 
     tax_lt, tax_lt_tab = compute_tax(tt_lt, inc - std)
-    tax_lt = tax_lt - compute_tax(tt_lt, inc - std - inc_lt)[0] # remove non long-term taxes to get cap_gains "on-the-top"
+    tax_lt = (
+        tax_lt - compute_tax(tt_lt, inc - std - inc_lt)[0]
+    )  # remove non long-term taxes to get cap_gains "on-the-top"
 
     tax_niit, tax_niit_tab = compute_tax(tt_niit, inc)
-    tax_niit = min(tax_niit, (inc_lt + inc_un) * 0.038) # make sure only lt and unearned income is used for niit
+    tax_niit = min(
+        tax_niit, (inc_lt + inc_un) * 0.038
+    )  # make sure only lt and unearned income is used for niit
 
     tax = tax_or + tax_lt + tax_niit
 
     print(f"income: {int(inc):>6d} / tax: {int(tax):>6d} / tax-eff: {tax / inc:>6.2%}")
-
-
 
 
 if __name__ == "__main__":
