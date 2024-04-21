@@ -39,6 +39,10 @@ def compute_tax(tax_table, balance):
     return tax_total, breakdown
 
 
+def div(divisor, dividend):
+    return divisor / dividend if dividend != 0 else 0
+
+
 # ----------------------------------------------------------------------------------------------------
 # Test suite
 # ----------------------------------------------------------------------------------------------------

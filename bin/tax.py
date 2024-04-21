@@ -8,7 +8,7 @@ import yaml
 
 from os.path import abspath, basename, dirname, join
 
-from tax.core import compute_tax
+from tax.core import compute_tax, div
 
 
 def main(argv):
@@ -88,7 +88,10 @@ def main(argv):
 
     tax = tax_or + tax_lt + tax_niit
 
-    print(f"income: {int(inc):>6d} / tax: {int(tax):>6d} / tax-eff: {tax / inc:>6.2%}")
+    print(f"income: {int(inc):>6d} / tax: {int(tax):>6d} / tax-eff: {div(tax, inc):>6.2%}")
+
+    for item in tax_or_tab:
+        print(item)
 
 
 if __name__ == "__main__":
