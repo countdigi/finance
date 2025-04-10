@@ -28,6 +28,10 @@ def main(argv):
         )
         sys.exit(1)
 
+    if sum(ratios) != 1:
+        print(f"sum(ratios): {sum(ratios)} != 1", file=sys.stderr)
+        sys.exit(1)
+
     withdraw = float(args.withdraw)
 
     total = sum(balances)
@@ -36,9 +40,9 @@ def main(argv):
 
     for bal in balances:
         rat = bal / total
-        print("  ", f"{rat:.0%} | {bal:5n}")
+        print("  ", f"{rat:>5.1%} | {bal:>9.1f}")
 
-    print(f"         {total:5n}")
+    print(f"           {total:9.1f}")
 
     print()
 
@@ -53,10 +57,10 @@ def main(argv):
 
         print(
             "  ",
-            f"{rat:.0%} | {new_bal:5n} ({delta_base:+3n} - {delta_with:3n} = {delta:+3n})",
+            f"{rat:>5.1%} | {new_bal:>9.1f} ({delta_base:>+6.1f} - {delta_with:>6.1f} = {delta:>+6.1f})",
         )
 
-    print(f"         {total - withdraw:5n}")
+    print(f"           {total - withdraw:>9.1f}")
 
 
 if __name__ == "__main__":
