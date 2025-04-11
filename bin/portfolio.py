@@ -11,9 +11,21 @@ sys.path.append(dirname(dirname(abspath(__file__))))
 from finance import portfolio
 
 
+def fmt_pct(pct, fractional=None):
+    if fractional:
+        return f"{round(pct * 100, 1):>4}"
+    else:
+        return f"{round(pct * 100):>2}"
+
+
+def fmt_amt(amt):
+    return f"{amt:>4}"
+
+
 def main(argv):
     parser = argparse.ArgumentParser(basename(__file__))
 
+    parser.add_argument("--fractional", action="store_true")
     parser.add_argument("portfolio_txt")
 
     args = parser.parse_args(argv)
@@ -58,12 +70,33 @@ def main(argv):
             }
 
             print(
-                entry_date,
-                f"all: {sum(asset_total.values())}",
-                " | ",
-                "".join(f"{k} {v[0]:>4d}[{v[1]:<04.1%}] " for k, v in asset.items()),
-                " | ",
-                "".join(f"{k} {v[0]:>4d}[{v[1]:<04.1%}] " for k, v in taxclass.items()),
+                "".join(
+                    [
+                        str(entry_date),
+                        " | ",
+                        str(sum(asset_total.values())),
+                        " | ",
+                        "/".join(asset),
+                        " ",
+                        ",".join(fmt_amt(v[0]) for v in asset.values()),
+                        " ",
+                        "(",
+                        "/".join(
+                            fmt_pct(v[1], args.fractional) for v in asset.values()
+                        ),
+                        ")",
+                        " | ",
+                        "/".join(taxclass),
+                        " ",
+                        ",".join(fmt_amt(v[0]) for v in taxclass.values()),
+                        " ",
+                        "(",
+                        "/".join(
+                            fmt_pct(v[1], args.fractional) for v in taxclass.values()
+                        ),
+                        ")",
+                    ]
+                )
             )
 
 
