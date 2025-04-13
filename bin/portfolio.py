@@ -25,7 +25,12 @@ def fmt_amt(amt):
 def main(argv):
     parser = argparse.ArgumentParser(basename(__file__))
 
-    parser.add_argument("--fractional", action="store_true")
+    parser.add_argument(
+        "--fractional",
+        "-f",
+        action="store_true",
+        help="display fractional allocation percentages",
+    )
     parser.add_argument("portfolio_txt")
 
     args = parser.parse_args(argv)
