@@ -12,7 +12,7 @@ sys.path.append(dirname(dirname(abspath(__file__))))
 from finance.cash import compute_tax
 from finance.cash import divide
 from finance.cash import fmt_breakdown
-from finance.cash import items_total, items_with_tag, items_without_tag
+from finance.cash import items_total, items_with_tag, items_without_tag, total
 from finance.cash import p
 
 
@@ -29,11 +29,83 @@ def main(argv):
         db_irs = yaml.load(f.read(), Loader=yaml.SafeLoader)
 
     with open(args.cash_yaml) as f:
-        db = yaml.load(f.read(), Loader=yaml.SafeLoader)
+        db_cash = yaml.load(f.read(), Loader=yaml.SafeLoader)
 
-    print(f"> status:{args.status}", file=sys.stderr)
-    print("", file=sys.stderr)
-    report_work(db, db_irs, args.status)
+    build_model(db_irs, db_cash, args.status)
+
+    # report_work(db, db_irs, args.status)
+
+
+def cash_table(entries):
+    """
+    [[name, amount, [tags...]], ...]
+    [
+        ['salary', 138690, ['fed', 'fica', 'sal']],
+        ['ltcg', 4382, ['cap']]
+    ]
+    """
+    return [[e[0], e[1], e[2:]] for e in entries]
+
+
+def build_model(db_irs, db_cash, status):
+    cash_inc = cash_table(db_cash["income"])
+    cash_out_mine = cash_table(db_cash["outflows"]["mine"])
+    cash_out_work = cash_table(db_cash["outflows"]["work"])
+
+    irs_med = db_irs["fica"]["medicare"]
+    irs_ssa = db_irs["fica"]["oasdi"]
+    irs_inc = db_irs["bracket"][status]
+    irs_cap = db_irs["cap_gains"][status]
+
+    tot_inc = total(cash_inc, "fed")
+    tot_cap = total(cash_inc, "cap")
+    tot_fca = total(cash_inc, "fica")
+
+    ded_std = db_irs["standard_deduction"][status]
+    ded_inc = total(cash_out_mine, "ded/fed")
+    ded_fca = total(cash_out_mine, "ded/fica")
+
+    agi = tot_inc + tot_cap - ded_inc
+
+    tbl_inc = tot_inc - ded_inc - ded_std
+    tbl_tot = tbl_inc + tot_cap
+    tbl_fca = tot_fca - ded_fca
+
+    tax_inc, tax_inc_brk = compute_tax(irs_inc, tbl_inc)
+    tax_cap, tax_cap_brk = compute_tax(irs_cap, tbl_tot)
+    tax_ssa, tax_ssa_brk = compute_tax(irs_ssa, tbl_fca)
+    tax_med, tax_med_brk = compute_tax(irs_med, tbl_fca)
+
+    tax_fca = tax_ssa + tax_med
+    tax_fed = tax_inc + tax_cap
+
+    eff_fed = divide(tax_fed, (tot_inc + tot_cap))
+
+    # -------------------------------------------------------------------------------------------------
+
+    p("  tot_inc", tot_inc)
+    p("- ded_inc", -1 * ded_inc)
+    p("+ tot_cap", tot_cap)
+    p("= agi", agi)
+    p("- ded_std", -1 * ded_std)
+    p("= tbl_tot", tbl_tot)
+
+    p()
+    p("  tax_inc", tax_inc)
+    p("+ tax_cap", tax_cap)
+    p("= tax_fed", tax_fed)
+    p()
+    p("eff_fed", eff_fed)
+
+    p()
+
+    p("tax_inc breakdown")
+    p(fmt_breakdown(tax_inc_brk))
+
+    p()
+
+    p("tax_cap breakdown")
+    p(fmt_breakdown(tax_cap_brk))
 
 
 def report_work(db, db_irs, status):
