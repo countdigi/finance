@@ -18,31 +18,6 @@ class TestSuite(unittest.TestCase):
         for v in variations:
             self.assertEqual(get_ss_taxable(v[0], v[1], status=v[2]), v[3], msg=v)
 
-    def test_items_total(self):
-        data = [
-            ("foo", 100, ["foo", "bar"]),
-            ("foo", 200, ["foo", "bar"]),
-        ]
-        self.assertEqual(items_total(data), 300)
-
-    def test_items_total_empty(self):
-        data = []
-        self.assertEqual(items_total(data), 0)
-
-    def test_items_without_tag(self):
-        inp_tag = "fica"
-        inp_with = [("roth", 100, ["fed", "sal", inp_tag])]
-        inp_wout = [("roth", 100, ["fed", "sal"])]
-
-        self.assertEqual(items_without_tag(inp_with + inp_wout, inp_tag), inp_wout)
-
-    def test_items_with_tag(self):
-        inp_tag = "fica"
-        inp_with = [("roth", 100, ["fed", "sal", inp_tag])]
-        inp_wout = [("roth", 100, ["fed", "sal"])]
-
-        self.assertEqual(items_with_tag(inp_with + inp_wout, inp_tag), inp_with)
-
     def test_divide(self):
         self.assertEqual(divide(100, 200), 0.5)
         self.assertEqual(divide(100, 0), 0)

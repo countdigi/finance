@@ -75,10 +75,6 @@ def get_ss_taxable(income, ss_income, status="mfj"):
     return min(ss_taxable, ss_income * 0.85)
 
 
-def items_total(data):
-    return sum(i[1] for i in data)
-
-
 def total(data, tag=None):
     if tag:
         if tag.startswith("-"):
@@ -87,20 +83,6 @@ def total(data, tag=None):
             data = [i for i in data if tag in i[2]]
 
     return sum(i[1] for i in data)
-
-
-def items_with_tag(data, tag):
-    """
-    Return items which have <tag>.
-    """
-    return [i for i in data if tag in i[2]]
-
-
-def items_without_tag(data, tag):
-    """
-    Return items with <tag>.
-    """
-    return [i for i in data if tag not in i[2]]
 
 
 def p(*args, test=False):
