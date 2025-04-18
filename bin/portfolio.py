@@ -37,7 +37,7 @@ def main(argv):
 
     col_spec = []
 
-    amt_spec = ["eqt", "bnd"]
+    amt_spec = ["eqt", "fix"]
 
     with open(args.portfolio_txt) as f:
         cols = f.readline().rstrip("\n").split()
@@ -60,7 +60,7 @@ def main(argv):
                             name=col_spec[col_idx][0],
                             taxclass=col_spec[col_idx][1],
                             asset=amt_spec[amt_idx],
-                            amount=int(amt),
+                            amount=float(amt),
                         )
                     )
 
