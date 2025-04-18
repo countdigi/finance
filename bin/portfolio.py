@@ -18,8 +18,11 @@ def fmt_pct(pct, fractional=None):
         return f"{round(pct * 100):>2}"
 
 
-def fmt_amt(amt):
-    return f"{amt:>4}"
+def fmt_amt(amt, fractional=None):
+    if fractional:
+        return f"{amt:>6.1f}"
+    else:
+        return f"{round(amt):>4}"
 
 
 def main(argv):
@@ -79,11 +82,13 @@ def main(argv):
                     [
                         str(entry_date),
                         " | ",
-                        str(sum(asset_total.values())),
+                        str(fmt_amt(sum(asset_total.values()), args.fractional)),
                         " | ",
                         "/".join(asset),
                         " ",
-                        ",".join(fmt_amt(v[0]) for v in asset.values()),
+                        ",".join(
+                            fmt_amt(v[0], args.fractional) for v in asset.values()
+                        ),
                         " ",
                         "(",
                         "/".join(
@@ -93,7 +98,9 @@ def main(argv):
                         " | ",
                         "/".join(taxclass),
                         " ",
-                        ",".join(fmt_amt(v[0]) for v in taxclass.values()),
+                        ",".join(
+                            fmt_amt(v[0], args.fractional) for v in taxclass.values()
+                        ),
                         " ",
                         "(",
                         "/".join(
