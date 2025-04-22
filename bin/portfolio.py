@@ -10,7 +10,7 @@ import sys
 
 from os.path import abspath, basename, dirname
 
-from typing import TextIO
+from typing import TextIO, Tuple, List
 
 sys.path.append(dirname(dirname(abspath(__file__))))
 
@@ -36,15 +36,26 @@ def fmt_amt(amt: float, fractional: bool = False) -> str:
         return f"{round(amt):>4}"
 
 
+def get_col_spec(header_line: str) -> list[Tuple[str, str]]:
+    """Parses the header line to get column specifications."""
+
+    cols = header_line.rstrip("\n").split()
+
+    col_spec = [tuple(col.split("/")) for col in cols[1:]]
+
+    for idx, spec in enumerate(col_spec, start=2):
+        if len(spec) != 2:
+            sys_exit(
+                f"Invalid header format. Each column spec after date must be 'name/taxclass' at column: {idx}"
+            )
+
+    return col_spec  # type: ignore
+
+
 def process_portfolio_file(f: TextIO, fractional: bool = False):
-    col_spec = []
+    col_spec = get_col_spec(f.readline())
 
     amt_spec = ["eqt", "fix"]
-
-    cols = f.readline().rstrip("\n").split()
-
-    for col in cols[1:]:
-        col_spec.append(col.split("/"))
 
     for line in f:
         entries = []
