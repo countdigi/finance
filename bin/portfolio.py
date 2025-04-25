@@ -58,6 +58,11 @@ def process_portfolio_file(f: TextIO, fractional: bool = False):
     amt_spec = ["eqt", "fix"]
 
     for line in f:
+        line = line.rstrip("\n")
+
+        if not line or line.startswith("#"):
+            continue
+
         entries = []
 
         cols = line.rstrip("\n").split()
